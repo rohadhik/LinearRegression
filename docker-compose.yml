@@ -1,0 +1,8 @@
+version: '3'
+
+services: 
+  my-python:
+    build: .
+    command: python -m flask run
+    ports: 
+      - 5002:5002
